@@ -1,0 +1,35 @@
+.titleComponent {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    padding: 30px 32px;
+}
+
+.titleComponent h1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 53px;
+    height: 4px;
+    width: 30px;
+    border-radius: 10px;
+    background: #ffb400;
+}
+
+.titleComponent h1 {
+    font-size: 34px;
+    font-weight: 900;
+    color: #ffb400;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+
+.titleComponent h1 span {
+    color: #666;
+    font-size: 26px;
+    display: block;
+}
+
+

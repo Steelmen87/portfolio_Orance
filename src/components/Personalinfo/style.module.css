@@ -1,0 +1,32 @@
+.container_info {
+    width: 570px;
+    height: 340px;
+    border: 1px solid;
+}
+
+.title {
+    padding-bottom: 22px;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2;
+    box-sizing: border-box;
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+}
+
+.liClass {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.ulFlex {
+    display: flex;
+}
+
+.ulFlex ul {
+    width: 255px;
+    padding: 0 15px;
+}

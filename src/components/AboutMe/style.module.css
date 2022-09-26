@@ -1,0 +1,27 @@
+.custom_title{
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #666;
+}
+.skills{
+    border: 1px solid ;
+    max-width: 1110px;
+    min-height: 343px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    box-sizing: border-box;
+}
+.container_skills{
+    display: flex;
+    justify-content: center;
+    min-width: 100%;
+}
+.skill{
+    width: 271px;
+    height: 171px;
+    border:1px solid red;
+}

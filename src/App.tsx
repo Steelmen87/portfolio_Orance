@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import Contact from "./components/Contact";
 import {BrowserRouter as Router, NavLink, Route, Switch} from 'react-router-dom';
 import {Home} from "./components/Home";
-import AboutMe from "./components/Aboutme";
+import AboutMe from "./components/AboutMe/Aboutme";
 
 function App() {
     return (

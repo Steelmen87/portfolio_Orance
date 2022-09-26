@@ -1,6 +1,6 @@
 .container_boxState {
     width: 570px;
-    height: 340px;
+    min-height: 340px;
     border: 1px solid;
     display: flex;
     flex-wrap: wrap;

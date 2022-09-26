@@ -22,18 +22,22 @@ const PersonalInfo = () => {
         <div className={s.container_info}>
             <div className={s.title}>PERSONAL INFO</div>
             <div className={s.ulFlex}>
-                <ul>
-                {col1.map((el, id) =>
-                    <li className={s.liClass} key={id}>
-                        {el}
-                    </li>)}
-            </ul>
-            <ul>
-                {col2.map((el, id) =>
-                    <li className={s.liClass} key={id}>
-                        {el}
-                    </li>)}
-            </ul>
+                <div>
+                    <ul>
+                        {col1.map((el, id) =>
+                            <li className={s.liClass} key={id}>
+                                {el}
+                            </li>)}
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        {col2.map((el, id) =>
+                            <li className={s.liClass} key={id}>
+                                {el}
+                            </li>)}
+                    </ul>
+                </div>
             </div>
             <Button title={"resume"}/>
         </div>

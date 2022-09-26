@@ -1,6 +1,6 @@
 .container_info {
-    width: 570px;
-    height: 340px;
+    max-width: 570px;
+    min-height: 340px;
     border: 1px solid;
 }
 
@@ -24,6 +24,8 @@
 
 .ulFlex {
     display: flex;
+    flex-wrap: wrap;
+    max-width: 572px;
 }
 
 .ulFlex ul {
